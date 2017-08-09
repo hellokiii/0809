@@ -12,4 +12,5 @@ class HomeController < ApplicationController
   	Reply.create(content: params[:content], post_id: params[:id_of_post])
   	redirect_to '/home/index'
   end
+
 end
